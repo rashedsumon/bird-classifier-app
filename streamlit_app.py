@@ -22,7 +22,7 @@ with st.spinner("Initializing system and checking Kaggle requirements..."):
     class_labels, trained_model = setup_runtime_components()
 
 # --- STEP 2: Render Frontend Elements ---
-st.write("### Try It Out")
+
 uploaded_file = st.file_uploader("Upload an image of a bird (JPG/PNG formats)...", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
