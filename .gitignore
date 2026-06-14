@@ -1,0 +1,11 @@
+# Cache folders
+__pycache__/
+.pytest_cache/
+
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Kagglehub and Local Dataset downloads
+~/.cache/kagglehub/
