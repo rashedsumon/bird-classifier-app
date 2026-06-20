@@ -6,7 +6,7 @@ from model import initialize_model, predict_bird_species
 # Configures the application window browser properties
 st.set_page_config(page_title="Bird 20-Species Identifier", page_icon="🐦", layout="centered")
 
-st.title("🐦 Bird 20-Species Classification System")
+st.title("🐦 Bird Predictor")
 st.write("This app uses a machine learning architecture to recognize and classify bird species dynamically.")
 
 # --- STEP 1: Process and download dataset components asynchronously ---
